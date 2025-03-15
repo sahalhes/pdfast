@@ -76,6 +76,8 @@ def create_pdf(c_files, image_files, output_pdf):
     
     c.save()
 
-c_files = ["24.c"]  # put comma for including multiple c files
-image_files = ["24.png"]  
+
+#main.py should be on same folder of .c and .png
+c_files = ["24.c"]  # put comma to include multiple c files like ["1.c", "2.c"]
+image_files = ["24.png"]  # put comma to include multiple image files  ["1.png", "2.png"]
 create_pdf(c_files, image_files, "24.pdf")

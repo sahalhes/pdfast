@@ -1,26 +1,35 @@
-# PDFast File and Image PDF Generator
+# PDFast - File and Image PDF Generator
 
 ## Installation
-### Clone Repository
+
+### Clone the Repository
 ```sh
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/sahalhes/pdfast.git
+cd pdfast
 ```
 
 ### Install Dependencies
-**Using Virtual Environment:**
-```sh
-python -m venv venv
-# Activate Virtual Environment
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
 
+#### Using a Virtual Environment (Recommended)
+```sh
+# Create a virtual environment
+python -m venv venv
+```
+### Activate the virtual environment
+#### On Windows:
+```sh
+venv\Scripts\activate
+```
+#### On macOS/Linux:
+```sh
+source venv/bin/activate
+```
+#### Install required dependencies
+```sh
 pip install -r requirements.txt
 ```
 
-**Or Directly:**
+### Installing Dependencies Directly (Alternative)
 ```sh
 pip install -r requirements.txt
 ```
@@ -29,3 +38,4 @@ pip install -r requirements.txt
 ```sh
 python main.py
 ```
+
